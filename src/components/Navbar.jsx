@@ -1,15 +1,16 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import skimg from '../img/cropped-Simplify-second.png'
 const Navbar = () => {
   return (
-    <div className="container-fluid bg-white sticky-top">
+    <div className="container-fluid bg-white sticky-top p-4">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light p-0">
-          <a href="index.html" className="navbar-brand d-lg-none">
-            <h1 className="fw-bold m-0">Company</h1>
-          </a>
+          <NavLink to="/" className="navbar-brand d-lg-none">
+            <h1 className="fw-bold m-0">  <img className="custom-img" style={{ width: '50%', height: '100px', objectFit: 'contain' }} src={skimg} alt="Image" /> </h1>
+          </NavLink>
           <button
             type="button"
             className="navbar-toggler"
@@ -19,32 +20,32 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav">
-              <a href="index.html" className="nav-item nav-link active">Home</a>
-              <a href="about.html" className="nav-item nav-link">About</a>
-              <a href="service.html" className="nav-item nav-link">Services</a>
-              <a href="project.html" className="nav-item nav-link">Projects</a>
+            <div className="navbar-nav fs-5 gap-3">
+              <NavLink to="/" className="nav-item nav-link " activeClassName="active">Home</NavLink>
+              <NavLink to="/about" className="nav-item nav-link" activeClassName="active">About</NavLink>
+              <NavLink to="/services" className="nav-item nav-link" activeClassName="active">Services</NavLink>
+              <NavLink to="/projects" className="nav-item nav-link" activeClassName="active">Projects</NavLink>
               <div className="nav-item dropdown">
-                <a
-                  href="#"
+                <NavLink
+                  to="#"
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
                   Pages
-                </a>
+                </NavLink>
                 <div className="dropdown-menu bg-light rounded-0 m-0">
-                  <a href="feature.html" className="dropdown-item">Features</a>
-                  <a href="team.html" className="dropdown-item">Our Team</a>
-                  <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                  <a href="quote.html" className="dropdown-item">Quotation</a>
-                  <a href="404.html" className="dropdown-item">404 Page</a>
+                  <NavLink to="/features" className="dropdown-item">Features</NavLink>
+                  <NavLink to="/team" className="dropdown-item">Our Team</NavLink>
+                  <NavLink to="/testimonial" className="dropdown-item">Testimonial</NavLink>
+                  <NavLink to="/quote" className="dropdown-item">Quotation</NavLink>
+                  <NavLink to="/404" className="dropdown-item">404 Page</NavLink>
                 </div>
               </div>
-              <a href="contact.html" className="nav-item nav-link">Contact</a>
+              <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
             </div>
             <div className="ms-auto d-none d-lg-block">
               {/* Uncomment if you want to add a button */}
-              {/* <a href="#" className="btn btn-primary rounded-pill py-2 px-3">Get A Quote</a> */}
+              {/* <NavLink to="#" className="btn btn-primary rounded-pill py-2 px-3">Get A Quote</NavLink> */}
             </div>
           </div>
         </nav>

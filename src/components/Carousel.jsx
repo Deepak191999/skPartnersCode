@@ -1,6 +1,8 @@
 import React from 'react';
 import carouselImage1 from '../img/carousel-1.jpg'; // Adjust the path if necessary
 import carouselImage2 from '../img/carousel-2.jpg'
+import { NavLink } from 'react-router-dom';
+
 const Carousel = () => {
   return (
     <div className="container-fluid px-0 mb-5">
@@ -14,7 +16,7 @@ const Carousel = () => {
                   <div className="col-lg-7 text-start">
                     <p className="fs-4 text-white animated slideInRight">Welcome to <strong>Company</strong></p>
                     <h1 className="display-1 text-white mb-4 animated slideInRight">Unlock Your Business Growth</h1>
-                    <a href="#" className="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Explore More</a>
+                    <NavLink to="/" className="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Explore More</NavLink>
                   </div>
                 </div>
               </div>
@@ -28,7 +30,7 @@ const Carousel = () => {
                   <div className="col-lg-7 text-end">
                     <p className="fs-4 text-white animated slideInLeft">Welcome to <strong>Company</strong></p>
                     <h1 className="display-1 text-white mb-5 animated slideInLeft">Ready to Grow Your Business</h1>
-                    <a href="#" className="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Explore More</a>
+                    <NavLink to="/" className="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Explore More</NavLink>
                   </div>
                 </div>
               </div>
