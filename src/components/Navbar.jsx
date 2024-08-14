@@ -35,13 +35,13 @@ const Navbar = () => {
                 </NavLink>
                 <div className="dropdown-menu bg-light rounded-0 m-0">
                   <NavLink to="/features" className="dropdown-item">Features</NavLink>
-                  <NavLink to="/team" className="dropdown-item">Our Team</NavLink>
                   <NavLink to="/testimonial" className="dropdown-item">Testimonial</NavLink>
                   <NavLink to="/quote" className="dropdown-item">Quotation</NavLink>
                   <NavLink to="/404" className="dropdown-item">404 Page</NavLink>
                 </div>
               </div>
               <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
+              <NavLink to="/joinourteam" className="nav-item nav-link">Join our Team</NavLink>
             </div>
             <div className="ms-auto d-none d-lg-block">
               {/* Uncomment if you want to add a button */}

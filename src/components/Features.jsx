@@ -6,7 +6,7 @@ import icon4 from '../img/icon/icon-4.png';
 
 const Features = () => {
   return (
-    <div className="container-xxl py-5">
+    <div className="container-xxl pt-5 pb-0">
       <div className="container">
         <div className="row g-0 feature-row">
           <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">

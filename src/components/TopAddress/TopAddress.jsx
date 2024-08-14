@@ -4,8 +4,8 @@ import skimg from '../../img/cropped-Simplify-second.png'
 import './TopAddress.css'
 const TopAddress = () => {
   return (
-    <div className="container-fluid bg-primary text-white d-none d-lg-flex">
-      <div className="container py-3">
+    <div style={{background: 'linear-gradient(to right, #00B4DB, #0083B0)'}} className="container-fluid text-white d-none d-lg-flex">
+      <div className="container py-2">
         <div className="d-flex align-items-center">
           <NavLink to="/">
             <h2 className="text-white fw-bold m-0">  <img className="custom-img" src={skimg} alt="Image" /> </h2>

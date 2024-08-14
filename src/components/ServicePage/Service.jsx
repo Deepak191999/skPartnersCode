@@ -1,10 +1,10 @@
 import React from 'react';
-import icon5 from '../img/icon/icon-5.png'
-import icon6 from '../img/icon/icon-6.png'
-import icon7 from '../img/icon/icon-7.png'
-import icon8 from '../img/icon/icon-8.png'
-import icon9 from '../img/icon/icon-9.png'
-import icon10 from '../img/icon/icon-10.png'
+import icon5 from '../../img/icon/icon-5.png'
+import icon6 from '../../img/icon/icon-6.png'
+import icon7 from '../../img/icon/icon-7.png'
+import icon8 from '../../img/icon/icon-8.png'
+import icon9 from '../../img/icon/icon-9.png'
+import icon10 from '../../img/icon/icon-10.png'
 const Service = () => {
   return (
     <div className="container-xxl py-5">

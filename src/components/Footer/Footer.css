@@ -1,0 +1,19 @@
+.list-unstyled {
+    list-style: none; /* Removes the default list styling */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+  }
+  
+  .list-unstyled li {
+    margin-top: 1rem; /* Adjusts the spacing between items */
+  }
+  
+  .list-unstyled li a {
+    text-decoration: none; /* Removes the default underline */
+    color: #f8f9fa; /* Ensures links are light colored */
+  }
+  
+  .list-unstyled li a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+  }
+  

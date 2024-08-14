@@ -1,11 +1,11 @@
 import React from 'react';
 import Card from './ProjectCard.jsx'; // Adjust the import path as necessary
-import project1 from '../img/project-1.jpg';
-import project2 from '../img/project-2.jpg';
-import project3 from '../img/project-3.jpg';
-import project4 from '../img/project-4.jpg';
+import project1 from '../../img/project-1.jpg';
+import project2 from '../../img/project-2.jpg';
+import project3 from '../../img/project-3.jpg';
+import project4 from '../../img/project-4.jpg';
 
-const Projects = () => {
+const Project = () => {
   const projects = [
     {
       image: project1,
@@ -57,4 +57,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Project;
