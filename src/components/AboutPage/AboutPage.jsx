@@ -1,5 +1,5 @@
 import React from "react";
-
+import styles from './AboutPage.module.css'
 import Footer from "../Footer/Footer";
 import { NavLink } from "react-router-dom";
 import Img1 from "../../img/young-businesswoman-with-co-workers1.jpg";
@@ -7,6 +7,7 @@ import Img2 from "../../img/businesspeople-celebrating-success1.jpg";
 import Img3 from "../../img/project-3.jpg";
 import Img4 from "../../img/vision1.jpg";
 import AboutUs from "./AboutUs";
+
 
 const AboutPage = () => {
   return (
@@ -36,10 +37,14 @@ const AboutPage = () => {
         >
           <img
             src={Img1}
-            className="img-fluid rounded-circle" // Use 'rounded-circle' for a circular image
+            className={`img-fluid shadow-lg  ${styles.imageHover}`}
             alt="Market Research"
-            style={{ height: "300px", width: "300px" }}
+            style={{ height: "300px", width: "300px",objectFit: "cover", 
+              border: "5px solid #fff", 
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", }}
           />
+
+
         </div>
         <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
           <div className="bg-light rounded-top p-5 h-100">
@@ -100,9 +105,11 @@ const AboutPage = () => {
         >
           <img
             src={Img2}
-            className="img-fluid rounded-circle" // Use 'rounded-circle' for a circular image
+            className={`img-fluid rounded-circle shadow-lg  ${styles.imageHover}`} // Use 'rounded-circle' for a circular image
             alt="Market Research"
-            style={{ height: "300px", width: "300px" }}
+            style={{ height: "300px", width: "300px",objectFit: "cover", 
+              border: "5px solid #fff", 
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", }}
           />
         </div>
       </div>
@@ -115,9 +122,11 @@ const AboutPage = () => {
         >
           <img
             src={Img3}
-            className="img-fluid rounded-circle" // Use 'rounded-circle' for a circular image
+            className={`img-fluid shadow-lg  ${styles.imageHover}`}
             alt="Market Research"
-            style={{ height: "300px", width: "300px" }}
+            style={{ height: "300px", width: "300px",objectFit: "cover", 
+              border: "5px solid #fff", 
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", }}
           />
         </div>
         <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
@@ -169,9 +178,11 @@ const AboutPage = () => {
         >
           <img
             src={Img4}
-            className="img-fluid rounded-circle" // Use 'rounded-circle' for a circular image
+            className={`img-fluid rounded-circle shadow-lg  ${styles.imageHover}`}
             alt="Market Research"
-            style={{ height: "300px", width: "300px" }}
+            style={{ height: "300px", width: "300px",objectFit: "cover", 
+              border: "5px solid #fff", 
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", }}
           />
         </div>
       </div>

@@ -4,11 +4,11 @@ import skimg from '../../img/cropped-Simplify-second.png'
 import './TopAddress.css'
 const TopAddress = () => {
   return (
-    <div style={{background: 'linear-gradient(to right, #00B4DB, #0083B0)'}} className="container-fluid text-white d-none d-lg-flex">
+    <div style={{background: 'linear-gradient(to right, #128aa5, #0083B0)'}} className="container-fluid text-white d-none d-lg-flex">
       <div className="container py-2">
         <div className="d-flex align-items-center">
           <NavLink to="/">
-            <h2 className="text-white fw-bold m-0">  <img className="custom-img" src={skimg} alt="Image" /> </h2>
+            <h2 className="text-white fw-bold m-0">  <img className="custom-img" src={skimg} alt="my" /> </h2>
           </NavLink>
           <div className="ms-auto d-flex align-items-center">
             <small className="ms-4"><i className="fa fa-map-marker-alt me-3"></i>30N, Gould St. Ste 4000 Sheridan, Wyoming 82801 USA</small>

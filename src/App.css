@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+.suse-bold {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800; /* Use a weight between 100 and 800 */
+  font-style: normal;
+}
+
+.suse-light {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300; /* Example weight */
+  font-style: normal;
+}
+
+.suse-regular {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Example weight */
+  font-style: normal;
+}

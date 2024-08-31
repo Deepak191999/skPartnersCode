@@ -22,6 +22,12 @@ const JoinOurTeam = () => {
   
   return (
     <div className="container mt-5">
+      <div className="text-center mx-auto "style={{ maxWidth: "500px" }}>
+          <p className="fs-5 fw-medium text-primary">Join Our Team</p>
+          <h1 className="display-5 mb-5">
+          Shape your career with us and grow together.
+          </h1>
+        </div>
       <div className="row justify-content-center">
         <div className="col-md-8">
           <form ref={form} onSubmit={sendEmail} style={{ backgroundColor: '#e9ecef' }} className=" p-4 rounded">

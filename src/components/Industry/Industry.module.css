@@ -1,0 +1,25 @@
+/* CSS for the card hover effect */
+.cardHover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* Prevent image overflow on hover */
+  }
+  
+  .cardHover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* CSS for the image container */
+  .imageContainer {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .cardImage {
+    transition: transform 0.3s ease;
+  }
+  
+  .cardImage:hover {
+    transform: scale(1.1);
+  }
+  
