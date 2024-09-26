@@ -71,10 +71,10 @@ const Testimonial = () => (
       <Slider {...settings} className="testimonial-carousel wow fadeInUp border" data-wow-delay="0.1s">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-item rounded p-4 p-lg-5 mb-5">
-            <img className="mb-4" src={testimonial.img} alt={`Testimonial from ${testimonial.name}`} />
-            <p className="mb-4">{testimonial.text}</p>
+            {/* <img className="mb-4" src={testimonial.img} alt={`Testimonial from ${testimonial.name}`} /> */}
             <h5>{testimonial.name}</h5>
             <span className="text-primary">{testimonial.profession}</span>
+            <p className="mb-4">{testimonial.text}</p>
           </div>
         ))}
       </Slider>

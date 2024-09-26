@@ -98,7 +98,7 @@ const Quantitative = () => {
           <div className="col-md-6 mb-4">
             <div className={`card h-100 shadow-sm  ${styles.gradientBg}`}>
               <div className="card-body ">
-                <h3 className="card-title text-center mb-3">CATI</h3>
+                <h3 className="card-title text-center mb-3">CATI/CAWI</h3>
                 <p className="card-text">
                   Computer-Assisted Telephone Interview is an interview method
                   where the interviewer conducts the interview on telephone as

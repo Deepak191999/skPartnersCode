@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Panel.module.css'; // Import your CSS module
-
+import { init, send } from '@emailjs/browser';
+import Footer from '../Footer/Footer';
 const Panel = () => {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -10,7 +11,7 @@ const Panel = () => {
     gender: '',
     message: '',
   });
-
+  const [successMessage, setSuccessMessage] = useState('');
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -18,8 +19,29 @@ const Panel = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log('Form submitted:', formData);
+    // Initialize EmailJS with your public key
+    init('_cbXI7fJxSe5K5llv'); 
+
+    // Send email using @emailjs/browser
+    send('service_oko30wg', 'template_eyej8dh', formData)
+      .then((response) => {
+        console.log('Email sent successfully:', response);
+        setSuccessMessage('Email sent successfully!');
+        // Handle success response
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          country: '',
+          gender: '',
+          message: '',
+        });
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+        setSuccessMessage('Failed to send email. Please try again.');
+        // Handle error response
+      });
   };
 
   const countries = [
@@ -46,10 +68,10 @@ const Panel = () => {
   ];
 
   return (
+    <>
     <div className="container my-5">
-        <div className="text-center mx-auto "style={{ maxWidth: "500px" }}>
+        <div className="text-center mx-auto" style={{ maxWidth: "500px" }}>
           <p className="fs-5 fw-medium text-primary">Join Our Panel</p>
-          
         </div>
       <div className="row justify-content-center">
         <div className="col-md-8">
@@ -60,21 +82,21 @@ const Panel = () => {
           If you’re interested in surveys to get your opinions heard and start earning rewards, we want to hear from you.
           </p>
           <p className='fs-5'>
-Simply complete a few details to join and we’ll send you an email to further process. Once our team will verified your input you’ll receive online surveys directly into your inbox. To make money with online surveys, join for free today.
+          Simply complete a few details to join and we’ll send you an email to further process. Once our team verifies your input, you’ll receive online surveys directly into your inbox. To make money with online surveys, join for free today.
           </p>
 
           <h2 className='mt-4 py-2'>
           Why Join?
           </h2>
           <p className='fs-5'>
-          Work Online! Join now to make money from surveys. As a member, you’ll be rewarded with points for taking online surveys. With your points you’ll be able to redeem from our range of popular brand vouchers, including flipkart.com, Cbazaar.in and Jabong Amazon.com® Gift Cards and iTunes® Gift Cards etc.
+          Work Online! Join now to make money from surveys. As a member, you’ll be rewarded with points for taking online surveys. With your points, you’ll be able to redeem them from our range of popular brand vouchers, including flipkart.com, Cbazaar.in, Jabong, Amazon.com® Gift Cards, iTunes® Gift Cards, etc.
           </p>
           
           <h2 className='mt-4 py-2'>
           What happens after I join?
           </h2>
           <p className='fs-5'>
-          You are invited to participate in surveys for money from your inbox. You’ll find yourself sharing your views on familiar topics like consumer products, healthcare, education, lifestyle and much more which will comes under Industrials, Consumer Discretionary, Consumer Staples, Health Care, Financial Services, Information Technology, Telecommunication Services, Utilities, Real Estate, Energy and Materials.
+          You are invited to participate in surveys for money from your inbox. You’ll find yourself sharing your views on familiar topics like consumer products, healthcare, education, lifestyle, and much more, which will come under Industrials, Consumer Discretionary, Consumer Staples, Health Care, Financial Services, Information Technology, Telecommunication Services, Utilities, Real Estate, Energy, and Materials.
           </p>
           
         </div>
@@ -122,12 +144,16 @@ Simply complete a few details to join and we’ll send you an email to further p
                   <textarea id="message" name="message" className="form-control" rows="3" onChange={handleChange} value={formData.message}></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
+                {successMessage && <p className="mt-3 text-success">{successMessage}</p>}
               </form>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <Footer/>
+    </>
   );
 }
 

@@ -24,6 +24,8 @@ import Otherservice from './components/Service/Otherservice';
 import Panel from './components/Panel/Panel';
 import Happyclient from './components/Happyclient/Happyclient';
 import IndustriesServed from './components/Industry/IndustryServed';
+import Itservice from './components/Service/Itservice';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -36,18 +38,12 @@ function App() {
           <Carousel />
           <Features />
           <Happyclient/>
-          <IndustriesServed/>
-          <AboutUs/>
-          
-          {/* <Project /> */}
-          {/* <Quote /> */}
-          {/* <Team /> */}
+          <IndustriesServed/>          
           <Testimonial />
           <Footer />
         </>
       } />
        <Route path="/about" element={<AboutPage/>} />
-       {/* <Route path="/services" element={<ServicePage />} /> */}
        <Route path="/projects" element={<ProjectPage />} />
        <Route path="/contact" element={<ContactPage/>} />
        <Route path="/joinourteam" element={<JoinOurTeam/>} />
@@ -57,8 +53,10 @@ function App() {
        <Route path="/onlineresearch" element={<Onlineresearch/>} />
        <Route path="/telephonesurvey" element={<Telephonesurvey/>} />
        <Route path="/businessresearch" element={<Businessresearch/>} />
+       <Route path="/itservice" element={<Itservice/>} />
        <Route path="/otherservice" element={<Otherservice/>} />
        <Route path="/joinourpanel" element={<Panel/>} />
+       <Route path="/faq" element={<Faq/>} />
        
 
     </Routes>

@@ -82,6 +82,36 @@ const Onlineresearch = () => {
               </div>
             </div>
           </div>
+        </div> 
+        
+        <div className="row" style={{ marginTop: "150px" }}>
+          <div className="col-md-6 mb-4">
+            <div className={`card h-100 shadow-sm  ${styles.gradientBg}`}>
+              <div className="card-body ">
+                <h3 className="card-title text-center mb-3">Healthcare</h3>
+                <p className="card-text">                
+We at Simplified Knowledge MR Partners specialize in healthcare market research, leveraging our expertise to provide valuable insights into the evolving healthcare landscape.
+                </p>
+                <p className="card-text">
+                Our healthcare online research services include tracking patient trends, understanding healthcare provider preferences, analyzing treatment protocols, and helping our clients navigate the complexities of healthcare markets to make informed decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6 mb-4">
+            <div className={`card h-100 shadow-sm  ${styles.gradientBg}`}>
+              <div className="card-body">
+                <h3 className="card-title text-center mb-3">  GenPop (General Population)</h3>
+                <p className="card-text">              
+We at Simplified Knowledge MR Partners excel in conducting general population (GenPop) research, delivering critical insights on consumer behaviors and societal trends.
+                </p>
+                <p className="card-text">
+                Our GenPop online research services encompass analyzing public opinions, tracking lifestyle changes, understanding consumer habits, and assisting our clients in tailoring strategies to meet the diverse needs of the general population.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
      

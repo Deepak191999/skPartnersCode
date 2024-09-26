@@ -12,24 +12,9 @@ import AboutUs from "./AboutUs";
 const AboutPage = () => {
   return (
     <>
-      <nav aria-label="breadcrumb" className="bg-light p-3 rounded fs-4 ps-4">
-        <ol className="breadcrumb mb-0">
-          <li className="breadcrumb-item">
-            <NavLink className="text-decoration-none text-secondary" to="/">
-              Home
-            </NavLink>
-          </li>
-          <li className="breadcrumb-item active" aria-current="page">
-            <NavLink className="text-decoration-none text-primary" to="/about">
-              About
-            </NavLink>
-          </li>
-        </ol>
-      </nav>
-
+    
     <AboutUs/>
-
-      {/* 1 */}
+      
       <div className="row g-0 mt-5">
         <div
           className="col-lg-4 d-flex justify-content-center align-items-center wow fadeIn"
@@ -66,7 +51,7 @@ const AboutPage = () => {
         </div>
       </div>
 
-{/* 2 */}
+
       <div className="row g-0 mt-5">
         <div  style={{ paddingLeft: '5rem' }}
           className="col-lg-8  d-flex justify-content-center align-items-center wow fadeIn"
@@ -114,7 +99,7 @@ const AboutPage = () => {
         </div>
       </div>
 
-{/* 3 */}
+
       <div className="row g-0 mt-5">
         <div
           className="col-lg-4 d-flex justify-content-center align-items-center wow fadeIn"
@@ -149,7 +134,7 @@ const AboutPage = () => {
         </div>
       </div>
 
-{/* 4 */}
+
 <div className="row g-0 mt-5">
         <div  style={{ paddingLeft: '4rem' }}
           className="col-lg-8  d-flex justify-content-center align-items-center wow fadeIn"

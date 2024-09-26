@@ -83,7 +83,7 @@ const Contact = () => {
               <div className="ms-3">
                 <h6>Our Offices</h6>
                 <span>30N, Gould St. Ste 4000 Sheridan, Wyoming 82801 USA,</span><br />
-                <span> 8th floor Tower B, Ithum, A40, Sector 62, Noida, Uttar Pradesh 201301</span>
+                {/* <span> 8th floor Tower B, Ithum, A40, Sector 62, Noida, Uttar Pradesh 201301</span> */}
               </div>
             </div>
 
@@ -94,7 +94,7 @@ const Contact = () => {
               </div>
               <div className="ms-3">
                 <h6>Call Us</h6>
-                <span>+91 9958393800</span>
+                <span>+91  9971139111</span>
               </div>
             </div>
 
@@ -111,8 +111,9 @@ const Contact = () => {
 
             <iframe
               className="w-100 rounded"
-              src="https://maps.google.com/maps?q=8th%20floor%20Tower%20B%2C%20Ithum%2C%20…%2C%20Noida%2C%20Uttar%20Pradesh%20201301&t=m&z=10&output=embed&iwloc=near" title="8th floor Tower B, Ithum, A40, Sector 62, Noida, Uttar Pradesh 201301" aria-label="8th floor Tower B, Ithum, A40, Sector 62, Noida, Uttar Pradesh 201301"
-              frameBorder="0"
+               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11324.672344494016!2d-106.9549523!3d44.797763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a650d27%3A0x6ae43d2ca3ecd327!2sSimplified%20Knowledge%20Partners!5e0!3m2!1sen!2sin!4v1725125597740!5m2!1sen!2sin" 
+               title="30N, Gould St. Ste 4000 Sheridan, Wyoming 82801 USA"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              
               style={{ minHeight: "300px", border: 0 }}
               allowFullScreen
               aria-hidden="false"

@@ -12,8 +12,8 @@ const TopAddress = () => {
           </NavLink>
           <div className="ms-auto d-flex align-items-center">
             <small className="ms-4"><i className="fa fa-map-marker-alt me-3"></i>30N, Gould St. Ste 4000 Sheridan, Wyoming 82801 USA</small>
-            <small className="ms-4"><i className="fa fa-envelope me-3"></i>info@sk-mrpartners.com</small>
-            <small className="ms-4"><i className="fa fa-phone-alt me-3"></i>+91 9958393800</small>
+            <small className="ms-4"><i className="fa fa-envelope me-3"></i>For RFQ : sales@sk-mrpartners.com</small>
+            <small className="ms-4"><i className="fa fa-phone-alt me-3"></i>+91 9971139111</small>
             <div className="ms-3 d-flex">
               <a className="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href="https://www.instagram.com/sk.mrpartners/" target="_blank" rel="noopener noreferrer" ><i className="fa-brands fa-instagram"></i></a>
               <a className="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href="https://x.com/sk_mrpartners"  target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-x-twitter"></i></a>
