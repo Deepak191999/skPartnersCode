@@ -70,33 +70,32 @@ const Panel = () => {
   return (
     <>
     <div className="container my-5">
-        <div className="text-center mx-auto" style={{ maxWidth: "500px" }}>
-          <p className="fs-5 fw-medium text-primary">Join Our Panel</p>
-        </div>
+      
       <div className="row justify-content-center">
         <div className="col-md-8">
-          <h2 className='mt-4 py-2'>
+          <h2 className='mt-4 py-2' style={{color:'#576FFF'}}>
           Join our Panel
           </h2>
-          <p className='fs-5'>
-          If you’re interested in surveys to get your opinions heard and start earning rewards, we want to hear from you.
+          <p className='fs-5'>          
+          Are you interested in sharing your opinions and earning rewards through online surveys? We’d love to have you on board!
           </p>
           <p className='fs-5'>
-          Simply complete a few details to join and we’ll send you an email to further process. Once our team verifies your input, you’ll receive online surveys directly into your inbox. To make money with online surveys, join for free today.
+          Just fill in a few simple details to get started, and we’ll send you an email to complete the process. Once your information is verified by our team, you’ll start receiving surveys straight to your inbox. Join for free today and start earning by sharing your thoughts!
+
           </p>
 
-          <h2 className='mt-4 py-2'>
+          <h2 className='mt-4 py-2' style={{color:'#576FFF'}}>
           Why Join?
           </h2>
-          <p className='fs-5'>
-          Work Online! Join now to make money from surveys. As a member, you’ll be rewarded with points for taking online surveys. With your points, you’ll be able to redeem them from our range of popular brand vouchers, including flipkart.com, Cbazaar.in, Jabong, Amazon.com® Gift Cards, iTunes® Gift Cards, etc.
+          <p className='fs-5'>        
+            Work from home and start earning with online surveys! By joining, you’ll earn points for every survey you complete. Redeem your points for a variety of popular brand vouchers, including Flipkart, Cbazaar, Jabong, Amazon® Gift Cards, iTunes® Gift Cards, and more. Sign up today and start getting rewarded for sharing your opinions!
           </p>
           
-          <h2 className='mt-4 py-2'>
+          <h2 className='mt-4 py-2' style={{color:'#576FFF'}}>
           What happens after I join?
           </h2>
-          <p className='fs-5'>
-          You are invited to participate in surveys for money from your inbox. You’ll find yourself sharing your views on familiar topics like consumer products, healthcare, education, lifestyle, and much more, which will come under Industrials, Consumer Discretionary, Consumer Staples, Health Care, Financial Services, Information Technology, Telecommunication Services, Utilities, Real Estate, Energy, and Materials.
+          <p className='fs-5'>        
+             Once you join, you’ll receive survey invitations directly in your inbox. You’ll be sharing your opinions on topics you’re familiar with, such as consumer products, healthcare, education, lifestyle, and more. These surveys will cover a wide range of industries including Industrials, Consumer Goods, Healthcare, Finance, Technology, Telecom, Utilities, Real Estate, Energy, and Materials. Your views will help shape decisions in these sectors, and you’ll earn rewards in return!
           </p>
           
         </div>

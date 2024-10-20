@@ -25,7 +25,7 @@ const Otherservice = () => {
 
           {/* Right side text */}
           <div className="col-md-6">
-            <h2>Other Services</h2>
+            <h2 style={{color:'#576FFF'}}>Other Services</h2>
             <p>
               We at Simplified Knowledge MR Partners. offer several other
               services related to market research that helps a business conduct

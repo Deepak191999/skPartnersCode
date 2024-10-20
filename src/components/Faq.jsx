@@ -13,17 +13,19 @@ const Faq = () => {
       question: "What is Simplified Knowledge MR Partners?",
       answer: (
         <>
-            Simplified Knowledge MR Partners is a premier global provider of comprehensive market research services, specializing in Qualitative Research, Quantitative Research, and Online Research.<br /><br />
-            Our mission is to empower businesses to gain a competitive edge by leveraging digital transformation and adopting innovative technologies across all market research sectors.<br /><br />
-            We conduct surveys and polls across various domains, including public affairs, consumer products, and brand perceptions. Our research is supported by a diverse pool of respondents from around the world, ensuring that we capture a wide range of insights and opinions on key issues.<br /><br />
-            Joining our research panel is free and open to individuals aged 18 and above, allowing us to gather valuable data that aids businesses in making informed decisions.<br /><br />
-            At Simplified Knowledge MR Partners, we are committed to providing actionable insights that help our clients stay ahead in an ever-evolving marketplace.
+          Simplified Knowledge MR Partners is a leading global provider of market research services, specializing in Qualitative, Quantitative, and Online Research.<br/>
+
+Our mission is to help businesses gain a competitive advantage by embracing digital transformation and utilizing cutting-edge technologies in market research. We conduct surveys and polls across various sectors, such as public affairs, consumer products, and brand perceptions. With a global pool of diverse respondents, we ensure a broad spectrum of opinions and insights on important topics. <br/>
+
+Joining our research panel is free for individuals aged 18 and above, allowing us to collect valuable data that supports businesses in making well-informed decisions.<br/>
+
+At Simplified Knowledge MR Partners, we are dedicated to delivering actionable insights that help our clients stay ahead in a rapidly changing market.<br/>
         </>
     )
     },
     {
         question: "Who can I contact for business-related inquiries?",
-        answer: "For business-related queries, please reach out to us at: info@sk-mrpartners.com."
+        answer: "For business-related queries, please reach out to us at: sales@sk-mrpartners.com."
       },
       {
         question: "Does Simplified Knowledge MR Partners offer global fieldwork services?",
@@ -57,10 +59,7 @@ const Faq = () => {
         question: "Where can I learn more about Simplified Knowledge MR Partners?",
         answer: "You can learn more by visiting the About section of our website."
       },
-      {
-        question: "How do I leave the Simplified Knowledge MR Partners panel?",
-        answer: "If you wish to leave, please log in and visit the unsubscribe page. Note that you will forfeit any points in your account if you unsubscribe."
-      }
+      
   ];
 
   // Function to toggle the open index
@@ -71,7 +70,7 @@ const Faq = () => {
   return (
     <>
     <div className="container my-5">
-      <h2 className="text-center mb-4">FAQ</h2>
+      <h2 className="text-center mb-4"style={{color:'#576FFF'}}>FAQ</h2>
       {faqs.map((faq, index) => (
         <div key={index} className="mb-3">
           <div 

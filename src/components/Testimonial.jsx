@@ -11,26 +11,26 @@ const testimonials = [
   {
     img: testimonial1,
     text: 'Simplified Knowledge Partners transformed our data into valuable insights that drove our business forward. Highly recommended!',
-    name: 'John Doe',
-    profession: 'Business Analyst',
+    name: 'David Portalatin',
+    profession: 'Sr. Vice President',
   },
   {
     img: testimonial2,
     text: 'Their research and analysis provided us with the clarity we needed to make informed decisions. Exceptional service!',
     name: 'Jane Smith',
-    profession: 'Marketing Manager',
+    profession: 'Director Of Operations',
   },
   {
     img: testimonial3,
     text: 'The team at Simplified Knowledge Partners is incredibly professional and delivered results that exceeded our expectations.',
-    name: 'Michael Johnson',
+    name: 'Nelson Davis',
     profession: 'CEO',
   },
   {
     img: testimonial4,
     text: 'Their market insights were instrumental in helping us refine our strategy and achieve our goals.',
-    name: 'Emily Davis',
-    profession: 'Project Manager',
+    name: 'Jillian Cascio',
+    profession: 'Director Of Business Development',
   },
 ];
 
@@ -65,8 +65,8 @@ const Testimonial = () => (
     <div className="container">
       <div className="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
         style={{ maxWidth: '500px' }}>
-        <p className="fs-5 fw-medium text-primary">Testimonial</p>
-        <h1 className="display-5 mb-5">What Clients Say About Our Services!</h1>
+       
+        <h1 className="mb-5 fw-medium" style={{color:'#576FFF'}}>What Clients Say About Our Services!</h1>
       </div>
       <Slider {...settings} className="testimonial-carousel wow fadeInUp border" data-wow-delay="0.1s">
         {testimonials.map((testimonial, index) => (

@@ -17,10 +17,12 @@ const Happyclient = () => {
                 <div className={`${styles.iconCircle} mb-3 fs-3`}>
                   <FontAwesomeIcon icon={faFaceSmile} className={`fa-2x ${styles.iconBlue}`} />
                 </div>
-                <Card.Title className="display-4 mb-0">
+                <Card.Title className="display-4 mb-0 " style={{color:'#576FFF'} }>
                   <CountUp end={30} duration={2} />
+                  <span>+</span>
                 </Card.Title>
-                <Card.Text className='fs-1'style={{color:'#31d1c1'}}>Happy Clients</Card.Text>
+                
+                <Card.Text className='fs-4'style={{color:'#FDB913'}}>Happy Clients</Card.Text>
               </div>
             </Card.Body>
           </Card>
@@ -32,10 +34,11 @@ const Happyclient = () => {
                 <div className={`${styles.iconCircle} mb-3 fs-3`}>
                   <FontAwesomeIcon icon={faProjectDiagram} className={`fa-2x ${styles.iconBlue}`} />
                 </div>
-                <Card.Title className="display-4 mb-0">
+                <Card.Title className="display-4 mb-0"style={{color:'#576FFF'} }>
                   <CountUp end={8000} duration={2} />
+                  <span>+</span>
                 </Card.Title>
-                <Card.Text className='fs-1'style={{color:'#31d1c1'}}>Projects Delivered</Card.Text>
+                <Card.Text className='fs-4'style={{color:'#FDB913'}}>Projects Delivered</Card.Text>
               </div>
             </Card.Body>
           </Card>
@@ -47,8 +50,8 @@ const Happyclient = () => {
                 <div className={`${styles.iconCircle} mb-3 fs-3`}>
                   <FontAwesomeIcon icon={faClock} className={`fa-2x ${styles.iconBlue}`} />
                 </div>
-                <Card.Title className="display-4 mb-0">24/7</Card.Title>
-                <Card.Text className='fs-1'style={{color:'#31d1c1'}}>Support Hours</Card.Text>
+                <Card.Title className="display-4 mb-0"style={{color:'#576FFF'} }>24/7</Card.Title>
+                <Card.Text className=' fs-4 'style={{color:'#FDB913'}}>Support Hours</Card.Text>
               </div>
             </Card.Body>
           </Card>

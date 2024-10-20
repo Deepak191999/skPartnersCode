@@ -24,7 +24,7 @@ const Businessresearch = () => {
 
           {/* Right side text */}
           <div className="col-md-6">
-            <h2>Business Research</h2>
+            <h2 style={{color:'#576FFF'}}>Business Research</h2>
             <p>
              Business research refers to research about a
               company’s business activities and operations in order to use the
@@ -54,7 +54,7 @@ const Businessresearch = () => {
               <div className="card-body ">
                 <h3 className="card-title text-center mb-3">Identification</h3>
                 <p className="card-text">
-                  Simplified Knowlege MR Partnershelps our clients to identify
+                  Simplified Knowledge MR Partners helps our clients to identify
                   and exploits market opportunities. Identification helps to
                   clarify problems and threats, and this information can be used
                   to make good decisions about the company.
@@ -70,7 +70,7 @@ const Businessresearch = () => {
                   Understanding Customers
                 </h3>
                 <p className="card-text">
-                  Simplified Knowlege MR Partnershelps our clients improve their
+                  Simplified Knowledge MR Partners helps our clients improve their
                   understanding of their customers, which can be useful in
                   communicating better with customers or stakeholders. By
                   conducting research to understand customers, risk and
@@ -90,7 +90,7 @@ const Businessresearch = () => {
                   Investment Planning
                 </h3>
                 <p className="card-text">
-                  Simplified Knowlege MR Partnershelps our clients plan their
+                  Simplified Knowledge MR Partners helps our clients plan their
                   company’s financial strategy, which is done by using knowledge
                   about the market. We help clients incorporate this knowledge
                   into their financial strategy.
@@ -106,7 +106,7 @@ const Businessresearch = () => {
                   Reputation Measurement
                 </h3>
                 <p className="card-text">
-                  Simplified Knowlege MR Partnershelps our client measure the
+                  Simplified Knowledge MR Partners helps our client measure the
                   value of their brand’s reputation. This is done by using brand
                   surveys and online sentiment analysis. This can help
                   businesses stay updated on the state of the market and market

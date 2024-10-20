@@ -25,7 +25,7 @@ const Itservice = () => {
 
           {/* Right side text */}
           <div className="col-md-6">
-            <h2>IT Services</h2>
+            <h2 style={{color:'#576FFF'}}>IT Services</h2>
             <p>
             IT services encompass a broad range of technical support and solutions aimed at improving the efficiency, security, and performance of a company’s digital infrastructure. These services rely on cutting-edge technologies to help businesses meet their operational goals, from optimizing internal processes to enhancing customer experiences. IT services address questions like:
             </p>

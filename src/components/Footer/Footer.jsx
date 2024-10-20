@@ -151,7 +151,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               <p style={{ fontSize: '1rem', color: 'white', fontWeight: 'bold' }}>
-                &copy; <a className="fw-medium text-light" href="#">Simplified Knowledge MR Partners</a>, All Rights Reserved.
+                &copy; <a className="fw-medium text-light" href="#">Simplified Knowledge Partners LLC</a>, All Rights Reserved.
               </p>
             </div>
           </div>

@@ -25,7 +25,7 @@ const Telephonesurvey = () => {
 
           {/* Right side text */}
           <div className="col-md-6">
-            <h2>Telephone Surveys</h2>
+            <h2 style={{color:'#576FFF'}}>Telephone Surveys</h2>
             <p>
               Telephone surveys are a traditional mode of carrying out market
               research. It involves phone agents asking the respondent questions

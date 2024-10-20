@@ -61,7 +61,7 @@ const JoinOurTeam = () => {
     <div className="container mt-5">
       <div className="text-center mx-auto "style={{ maxWidth: "500px" }}>
           <p className="fs-5 fw-medium text-primary">Join Our Team</p>
-          <h1 className="display-5 mb-5">
+          <h1 className="display-5 mb-5"style={{color:'#576FFF'}}>
           Shape your career with us and grow together.
           </h1>
         </div>
@@ -78,15 +78,15 @@ const JoinOurTeam = () => {
             </div>
             <div className="form-group mb-3">
               <label>Current Job Title</label>
-              <input type="text" name="jobTitle" className="form-control" />
+              <input type="text" name="jobTitle" className="form-control" required />
             </div>
             <div className="form-group mb-3">
               <label>Applying for which position</label>
-              <input type="text" name="position" className="form-control" />
+              <input type="text" name="position" className="form-control" required />
             </div>
             <div className="form-group mb-3">
               <label>Experience in Years</label>
-              <input type="number" name="experience" className="form-control" />
+              <input type="number" name="experience" className="form-control"required min={'0'} />
             </div>
             <div className="form-group mb-3">
                 <label>Select Country</label>

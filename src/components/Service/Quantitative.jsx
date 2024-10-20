@@ -25,7 +25,7 @@ const Quantitative = () => {
 
           {/* Right side text */}
           <div className="col-md-6">
-            <h2>Quantitative Services</h2>
+            <h2 style={{color:'#576FFF'}}>Quantitative Services</h2>
             <p>
               Quantitative research is research done using numbers and other
               quantities. Quantitative research is using data and statistical,

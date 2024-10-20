@@ -9,8 +9,8 @@ const Contact = () => {
           data-wow-delay="0.1s"
           style={{ maxWidth: "500px" }}
         >
-          <p className="fs-5 fw-medium text-primary">Contact Us</p>
-          <h1 className="display-5 mb-5">
+          
+          <h1 className="display-5 mb-5" style={{color:'#576FFF'}}>
             If You Have Any Query, Please Contact Us
           </h1>
         </div>

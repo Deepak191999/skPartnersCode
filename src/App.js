@@ -11,7 +11,7 @@ import Testimonial from './components/Testimonial';
 import Footer from './components/Footer/Footer';
 import AboutPage from './components/AboutPage/AboutPage';
 
-import AboutUs from './components/AboutPage/AboutUs';
+
 import ProjectPage from './components/ProjectPage/ProjectPage';
 import ContactPage from './components/ContactPage/ContactPage';
 import JoinOurTeam from './components/JoinTeamPage/JoinOurTeam';
@@ -26,6 +26,7 @@ import Happyclient from './components/Happyclient/Happyclient';
 import IndustriesServed from './components/Industry/IndustryServed';
 import Itservice from './components/Service/Itservice';
 import Faq from './components/Faq';
+import Specialties from './components/Specialties';
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
           <Carousel />
           <Features />
           <Happyclient/>
-          <IndustriesServed/>          
+          <IndustriesServed/>    
+          <Specialties/>      
           <Testimonial />
           <Footer />
         </>

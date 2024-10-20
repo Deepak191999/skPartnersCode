@@ -25,7 +25,7 @@ const Onlineresearch = () => {
 
           {/* Right side text */}
           <div className="col-md-6">
-            <h2> Online Research</h2>
+            <h2 style={{color:'#576FFF'}}> Online Research</h2>
             <p>
               Online research methods are ways of collecting data from customers
               via the internet. Online research has grown over the past few

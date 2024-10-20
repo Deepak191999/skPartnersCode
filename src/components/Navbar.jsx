@@ -19,17 +19,18 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav fs-5 gap-3">
-              <NavLink to="/" className="nav-item nav-link " activeClassName="active">Home</NavLink>
+          <div className="collapse navbar-collapse  fw-semibold" id="navbarCollapse">
+            <div className="navbar-nav fs-5 gap-3" >
+              <NavLink to="/" className="nav-item nav-link" activeClassName="active" >Home</NavLink>
               <NavLink to="/about" className="nav-item nav-link" activeClassName="active">About Us</NavLink>
-              {/* <NavLink to="/services" className="nav-item nav-link" activeClassName="active">Services</NavLink> */}
+           
 
               <div className="nav-item dropdown">
                 <NavLink
                   to="#"
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
+                  activeClassName="active"
                 >
                   Services
                 </NavLink>
@@ -38,17 +39,13 @@ const Navbar = () => {
                   <NavLink to="/quantitative" className="dropdown-item">Quantitative Service</NavLink>
                   <NavLink to="/itservice" className="dropdown-item">IT Service</NavLink>
                   <NavLink to="/onlineresearch" className="dropdown-item">Online Research</NavLink>
-                  <NavLink to="/telephonesurvey" className="dropdown-item">Telephone Surveys</NavLink>
                   <NavLink to="businessresearch" className="dropdown-item">Business Research</NavLink>
+                  <NavLink to="/telephonesurvey" className="dropdown-item">Telephone Surveys</NavLink>
                   <NavLink to="/otherservice" className="dropdown-item">Other Services</NavLink>
                 </div>
               </div>
 
-              <NavLink to="/contact" className="nav-item nav-link">Contact Us</NavLink>
-              <NavLink to="/joinourteam" className="nav-item nav-link">Join our Team</NavLink>
               <NavLink to="/getquote" className="nav-item nav-link">Get A Free Quote</NavLink>
-              <NavLink to="/joinourpanel" className="nav-item nav-link">Join Our Panel</NavLink>
-              <NavLink to="/faq" className="nav-item nav-link">FAQ</NavLink>
 
               <div className="nav-item dropdown">
                 <NavLink
@@ -86,6 +83,20 @@ const Navbar = () => {
                     target='_blank'
                     rel="noopener noreferrer">
                     GLOBAL PANEL BOOK
+                  </a>                                  
+                  <a 
+                  href="https://drive.google.com/file/d/1CCq3zwyOCD3jZ8dN33A-L918lHCt1a8c/view"                     
+                  className="dropdown-item" 
+                  target='_blank'
+                  rel="noopener noreferrer">
+                    LLC Cases Study
+                  </a>
+                  <a 
+                  href="https://drive.google.com/file/d/1N_hBZLydpKKB9Ag5cy0Q_8vxOJN1BUnO/view"                     
+                  className="dropdown-item" 
+                  target='_blank'
+                  rel="noopener noreferrer">
+                  LLC PIU & CIU Cases Study
                   </a>
                   <a 
                   href="https://drive.google.com/file/d/1W1VjsgCzI34zZI6oV4IuiVMUGmTD6Jk1/view?usp=drive_link"                     
@@ -96,14 +107,17 @@ const Navbar = () => {
                   </a>
                 </div>
               </div>
+
+              <NavLink to="/joinourteam" className="nav-item nav-link">Join our Team</NavLink>
+              <NavLink to="/joinourpanel" className="nav-item nav-link">Join Our Panel</NavLink>
+              <NavLink to="/faq" className="nav-item nav-link">FAQ</NavLink>
+              <NavLink to="/contact" className="nav-item nav-link">Contact Us</NavLink>
+
+           
              
 
             </div>
-            <div className="ms-auto d-none d-lg-block">
-              {/* Uncomment if you want to add a button */}
-              {/* <NavLink to="#" className="btn btn-primary rounded-pill py-2 px-3">Get A 1Quote</NavLink> */}
-              {/* <NavLink to="#" className="btn btn-primary rounded-pill py-2 px-3">Get A 2Quote</NavLink> */}
-            </div>
+           
           </div>
         </nav>
       </div>

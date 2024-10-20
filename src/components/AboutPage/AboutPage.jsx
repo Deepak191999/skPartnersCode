@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './AboutPage.module.css'
 import Footer from "../Footer/Footer";
-import { NavLink } from "react-router-dom";
+
 import Img1 from "../../img/young-businesswoman-with-co-workers1.jpg";
 import Img2 from "../../img/businesspeople-celebrating-success1.jpg";
 import Img3 from "../../img/project-3.jpg";
@@ -33,11 +33,11 @@ const AboutPage = () => {
         </div>
         <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
           <div className="bg-light rounded-top p-5 h-100">
-            <h2 className="display-6 mb-4 text-primary fw-semibold">
+            <h2 className="display-6 mb-4  fw-semibold"style={{color:'#576FFF'}}>
               Market Research Company You Can Trust
             </h2>
             <p className="mb-4">
-              Simplified Knowledge MR Partners was established in 2016 and we
+              Simplified Knowledge MR Partners was established in 2019 and we
               specialize in market research consultation for industry,
               healthcare, professional associations, consumer markets, and more.
               We are focused on using well-tested market research tools in
@@ -142,17 +142,10 @@ const AboutPage = () => {
         >
           <div className="bg-light rounded-top p-5 h-100 ">
           <h2 className="display-6 mb-4 text-primary  fw-semibold">Our Vision</h2>
-           <p> Our mission is to be able to consistently deliver top quality
-              market research to our clients. We will strive to grow into a
-              worldwide research group with strong presence internationally and
-              across all markets.
+           <p>Our vision is to be a market research organization par excellence which is trusted by our current and future clients, as well as the public. We want to be able to provide helpful and distinctly actionable and practical insights to our clients.
             </p>
             <p className="mb-4">
-              We strive to ensure client satisfaction at every step of the way.
-              We will work towards providing original, authentic, and reliable
-              data using efficient and effective research methods, tools, and
-              software. We will use that research to help our clients to build a
-              long-term relationship with their customers.
+            We wish to foster professional growth and development in our employees so as to allow them to grow alongside our organization. Finally, we want to see the field of market research and market intelligence grow along with us.
             </p>
           </div>
         </div>

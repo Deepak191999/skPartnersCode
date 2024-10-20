@@ -27,7 +27,7 @@ const Qualitative = () => {
 
         {/* Right side text */}
         <div className="col-md-6">
-          <h2>Qualitative Services</h2>
+          <h2 style={{color:'#576FFF'}}>Qualitative Services</h2>
           <p>
             Qualitative research is a type of research that studies people, as
             opposed to quantitative data. It is usually conducted by asking
