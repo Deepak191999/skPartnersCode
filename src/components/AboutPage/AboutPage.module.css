@@ -3,3 +3,20 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+
+  /* Standardizing the font sizes */
+.heading {
+  font-size: 2.5rem; /* For main headings */
+  font-weight: bold;
+  color: #576FFF;
+}
+
+.subheading {
+  font-size: 1.75rem; /* For subheadings */
+  font-weight: 600;
+}
+
+.text {
+  font-size: 1rem; /* For paragraph or body text */
+  line-height: 1.6;
+}

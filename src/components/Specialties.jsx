@@ -44,33 +44,43 @@ const Specialties = () => {
   return (
   
     <Container className="my-5">
-      <h2 className="text-center mb-4 " style={{color:'#576FFF'}}>Our Specialties</h2>
+      
+      <h1
+                className="text-center display-5 mb-4 "
+                style={{
+                  color: "#576FFF",
+                  fontSize: "2.5rem", // For main headings
+                  fontWeight: "bold",
+                }}
+              >
+               Our Specialties
+              </h1>
       <Row >
         <Col>
           <ul>
             {specialties.slice(0, 9).map((specialty, index) => (
-              <li className='mt-2' key={index}>{specialty}</li>
+              <li style={{ fontSize: '1.1rem' }} className='mt-2' key={index}>{specialty}</li>
             ))}
           </ul>
         </Col>
         <Col>
           <ul>
             {specialties.slice(9, 18).map((specialty, index) => (
-              <li className='mt-2' key={index}>{specialty}</li>
+              <li style={{ fontSize: '1.1rem' }} className='mt-2' key={index}>{specialty}</li>
             ))}
           </ul>
         </Col>
         <Col>
           <ul>
             {specialties.slice(18, 27).map((specialty, index) => (
-              <li className='mt-2' key={index}>{specialty}</li>
+              <li style={{ fontSize: '1.1rem' }} className='mt-2' key={index}>{specialty}</li>
             ))}
           </ul>
         </Col>
         <Col>
           <ul>
             {specialties.slice(27, 36).map((specialty, index) => (
-              <li className='mt-2' key={index}>{specialty}</li>
+              <li style={{ fontSize: '1.1rem' }} className='mt-2' key={index}>{specialty}</li>
             ))}
           </ul>
         </Col>

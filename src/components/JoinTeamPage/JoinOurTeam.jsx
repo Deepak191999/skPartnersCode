@@ -45,7 +45,7 @@ const JoinOurTeam = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    emailjs.sendForm('service_oko30wg', 'template_eyej8dh', form.current, 'YOUR_USER_ID')
       .then((result) => {
           console.log(result.text);
           alert('Message Sent Successfully');
@@ -60,10 +60,25 @@ const JoinOurTeam = () => {
     <>
     <div className="container mt-5">
       <div className="text-center mx-auto "style={{ maxWidth: "500px" }}>
-          <p className="fs-5 fw-medium text-primary">Join Our Team</p>
-          <h1 className="display-5 mb-5"style={{color:'#576FFF'}}>
-          Shape your career with us and grow together.
-          </h1>
+      <p
+                className="mb-4 text-primary"
+                style={{
+                  fontSize: "1.75rem", // For subheadings
+                  fontWeight: 600,
+                }}
+              >
+               Join Our Team
+              </p>
+              <h1
+                className="display-5 mb-4 "
+                style={{
+                  color: "#576FFF",
+                  fontSize: "2.5rem", // For main headings
+                  fontWeight: "bold",
+                }}
+              >
+                Need Our Expert Help? We're Here!
+              </h1>
         </div>
       <div className="row justify-content-center">
         <div className="col-md-8">

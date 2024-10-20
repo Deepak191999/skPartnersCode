@@ -70,13 +70,15 @@ At Simplified Knowledge MR Partners, we are dedicated to delivering actionable i
   return (
     <>
     <div className="container my-5">
-      <h2 className="text-center mb-4"style={{color:'#576FFF'}}>FAQ</h2>
+      <h2 className="text-center mb-4"style={{color:'#576FFF'}}>Frequently Asked Question</h2>
       {faqs.map((faq, index) => (
         <div key={index} className="mb-3">
-          <div 
+          <h5  
             className="faq-question d-flex align-items-center" 
             onClick={() => toggleFAQ(index)} 
-            style={{ cursor: 'pointer', fontWeight: 'bold' }}
+            style={{ cursor: 'pointer', fontSize: '1.2rem', // For subheadings
+              
+              cursor: 'pointer' }}
           >
             {faq.question}
             <FontAwesomeIcon 
@@ -84,17 +86,15 @@ At Simplified Knowledge MR Partners, we are dedicated to delivering actionable i
               className={`ms-auto transition-transform ${openIndex === index ? 'rotate' : ''}`} 
               style={{ width: '20px', height: '20px' }} 
             />
-          </div>
+          </h5>
           {openIndex === index && (
             <div className="faq-answer">
-              <p>{faq.answer}</p>
+                <p style={{ fontSize: '1.1rem' }}>{faq.answer}</p>
             </div>
           )}
         </div>
       ))}
-      <h4>Contact Us</h4>
-      <p><strong>Simplified Knowledge MR Partners Panel Support</strong><br />
-      info@sk-mrpartners.com</p>
+      
     </div>
 
 <Footer/>

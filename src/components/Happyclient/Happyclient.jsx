@@ -22,7 +22,16 @@ const Happyclient = () => {
                   <span>+</span>
                 </Card.Title>
                 
-                <Card.Text className='fs-4'style={{color:'#FDB913'}}>Happy Clients</Card.Text>
+                
+                <Card.Text
+                  className="mt-3 fs-4"
+                  style={{
+                    fontSize: "1.75rem", // For subheadings
+                    fontWeight: 400,
+                  }}
+                >
+                 Happy Clients
+                </Card.Text>
               </div>
             </Card.Body>
           </Card>
@@ -38,7 +47,16 @@ const Happyclient = () => {
                   <CountUp end={8000} duration={2} />
                   <span>+</span>
                 </Card.Title>
-                <Card.Text className='fs-4'style={{color:'#FDB913'}}>Projects Delivered</Card.Text>
+                
+                <Card.Text
+                  className="mt-3 fs-4"
+                  style={{
+                    fontSize: "1.75rem", // For subheadings
+                    fontWeight: 400,
+                  }}
+                >
+              Projects Delivered
+                </Card.Text>
               </div>
             </Card.Body>
           </Card>
@@ -51,7 +69,16 @@ const Happyclient = () => {
                   <FontAwesomeIcon icon={faClock} className={`fa-2x ${styles.iconBlue}`} />
                 </div>
                 <Card.Title className="display-4 mb-0"style={{color:'#576FFF'} }>24/7</Card.Title>
-                <Card.Text className=' fs-4 'style={{color:'#FDB913'}}>Support Hours</Card.Text>
+                
+                <Card.Text
+                  className="mt-3 fs-4"
+                  style={{
+                    fontSize: "1.75rem", // For subheadings
+                    fontWeight: 400,
+                  }}
+                >
+             Support Hours
+                </Card.Text>
               </div>
             </Card.Body>
           </Card>

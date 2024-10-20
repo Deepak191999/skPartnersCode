@@ -26,24 +26,25 @@ const Navbar = () => {
            
 
               <div className="nav-item dropdown">
-                <NavLink
-                  to="#"
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  activeClassName="active"
-                >
-                  Services
-                </NavLink>
-                <div className="dropdown-menu bg-light rounded-0 m-0">
-                  <NavLink to="/qualitative" className="dropdown-item">Qualitative Service</NavLink>
-                  <NavLink to="/quantitative" className="dropdown-item">Quantitative Service</NavLink>
-                  <NavLink to="/itservice" className="dropdown-item">IT Service</NavLink>
-                  <NavLink to="/onlineresearch" className="dropdown-item">Online Research</NavLink>
-                  <NavLink to="businessresearch" className="dropdown-item">Business Research</NavLink>
-                  <NavLink to="/telephonesurvey" className="dropdown-item">Telephone Surveys</NavLink>
-                  <NavLink to="/otherservice" className="dropdown-item">Other Services</NavLink>
-                </div>
-              </div>
+  <NavLink
+    to="#"
+    className="nav-link dropdown-toggle"
+    data-bs-toggle="dropdown"
+    style={{ color: '#665d5d' }} // Replace this with your desired color
+  >
+    Services
+  </NavLink>
+  <div className="dropdown-menu bg-light rounded-0 m-0">
+    <NavLink to="/qualitative" className="dropdown-item">Qualitative Service</NavLink>
+    <NavLink to="/quantitative" className="dropdown-item">Quantitative Service</NavLink>
+    <NavLink to="/itservice" className="dropdown-item">IT Service</NavLink>
+    <NavLink to="/onlineresearch" className="dropdown-item">Online Research</NavLink>
+    <NavLink to="/businessresearch" className="dropdown-item">Business Research</NavLink>
+    <NavLink to="/telephonesurvey" className="dropdown-item">Telephone Surveys</NavLink>
+    <NavLink to="/otherservice" className="dropdown-item">Other Services</NavLink>
+  </div>
+</div>
+
 
               <NavLink to="/getquote" className="nav-item nav-link">Get A Free Quote</NavLink>
 
@@ -51,7 +52,7 @@ const Navbar = () => {
                 <NavLink
                   to="#"
                   className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
+                  data-bs-toggle="dropdown"  style={{ color: '#746666' }}
                 >
                   Download Reports
                 </NavLink>

@@ -66,7 +66,17 @@ const Testimonial = () => (
       <div className="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
         style={{ maxWidth: '500px' }}>
        
-        <h1 className="mb-5 fw-medium" style={{color:'#576FFF'}}>What Clients Say About Our Services!</h1>
+       
+                   <h1
+                className=" display-5 mb-4 "
+                style={{
+                  color: "#576FFF",
+                  fontSize: "2.5rem", // For main headings
+                  fontWeight: "bold",
+                }}
+              >
+              What Clients Say About Our Services!
+              </h1>
       </div>
       <Slider {...settings} className="testimonial-carousel wow fadeInUp border" data-wow-delay="0.1s">
         {testimonials.map((testimonial, index) => (

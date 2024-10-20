@@ -20,8 +20,18 @@ const industries = [
 
 const IndustriesServed = () => {
   return (
-    <Container className="my-5">
-      <h1 className="text-center mb-4 fst-italic" style={{fontSize: '40px', marginBottom:'50px',color:'#576FFF'}} >Industries Served</h1>
+    <Container className="my-5 text-center">
+       <h1
+                className="display-5 mb-4 "
+                style={{
+                  color: "#576FFF",
+                  fontSize: "2.5rem", // For main headings
+                  fontWeight: "bold",
+                }}
+              >
+                Industries Served
+              </h1>
+      
       <Row className="justify-content-center">
         {industries.map((industry, index) => (
           <Col key={index} md={4} className="mb-4">

@@ -73,28 +73,34 @@ const Panel = () => {
       
       <div className="row justify-content-center">
         <div className="col-md-8">
-          <h2 className='mt-4 py-2' style={{color:'#576FFF'}}>
-          Join our Panel
-          </h2>
-          <p className='fs-5'>          
+        <p
+                className="mb-2 text-primary"
+                style={{
+                  fontSize: "1.75rem", // For subheadings
+                  fontWeight: 600,
+                }}
+              >
+               Join Our Panel
+              </p>
+              <p style={{ fontSize: '1.1rem' }}>        
           Are you interested in sharing your opinions and earning rewards through online surveys? We’d love to have you on board!
           </p>
-          <p className='fs-5'>
+          <p style={{ fontSize: '1.1rem' }}>   
           Just fill in a few simple details to get started, and we’ll send you an email to complete the process. Once your information is verified by our team, you’ll start receiving surveys straight to your inbox. Join for free today and start earning by sharing your thoughts!
 
           </p>
 
-          <h2 className='mt-4 py-2' style={{color:'#576FFF'}}>
-          Why Join?
-          </h2>
-          <p className='fs-5'>        
+          <h2 className=" mb-2  text-primary fw-semibold">Why Join ?</h2>
+          <p style={{ fontSize: '1.1rem' }}>         
             Work from home and start earning with online surveys! By joining, you’ll earn points for every survey you complete. Redeem your points for a variety of popular brand vouchers, including Flipkart, Cbazaar, Jabong, Amazon® Gift Cards, iTunes® Gift Cards, and more. Sign up today and start getting rewarded for sharing your opinions!
           </p>
           
-          <h2 className='mt-4 py-2' style={{color:'#576FFF'}}>
+         
+
+          <h2 className=" mb-2  text-primary fw-semibold">
           What happens after I join?
           </h2>
-          <p className='fs-5'>        
+          <p style={{ fontSize: '1.1rem' }}>        
              Once you join, you’ll receive survey invitations directly in your inbox. You’ll be sharing your opinions on topics you’re familiar with, such as consumer products, healthcare, education, lifestyle, and more. These surveys will cover a wide range of industries including Industrials, Consumer Goods, Healthcare, Finance, Technology, Telecom, Utilities, Real Estate, Energy, and Materials. Your views will help shape decisions in these sectors, and you’ll earn rewards in return!
           </p>
           
